@@ -1,17 +1,27 @@
-img {
-    transition:transform 0.4s ease;
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    .carousel-inner{
+        height: 500px;
+    }
 }
 
-img:hover {
-    -webkit-transform:scale(1.15); /* or some other value */
-    transform:scale(1.15);
+
+main{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.card{
+    margin-top: 30px;
+}
 
+#accordionEXPLANTE{
+    margin-top: 30px;
+}
 
-
-footer {
-    background-color: sandybrown;
+footer{
+    background-color: salmon;
     color: black;
     padding: 10px;
 }
