@@ -7,3 +7,8 @@ if ((perro==true)&&(gato==true)){
 }else{
     console.log('estoy feliz');
 }
+
+
+
+
+
